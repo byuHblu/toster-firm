@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Cushion</title>
+    <link
+      rel="stylesheet"
+      href="CSS/normalize.css"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+      />
+    <link
+      rel="stylesheet"
+      href="CSS/index.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+          <p class="header__heading">
+            SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <img class="hero__nameOfBrand-img" src="/img/hero-logo.png" alt="Name of brand">
+            <h1 class="hero__pruduct">orthopedic slippers</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="banner__container container flex">
+          <div class="banner__countdown coundown">
+            <div class="countdown__text">
+              LIMITED OFFER
+            </div>
+
+          
+            <div class=" countdown__timer timer">
+              <div class="timer__items">
+                <div class="timer__item timer__hours">00</div>
+                <div class="timer__item timer__minutes">00</div>
+                <div class="timer__item timer__seconds">00</div>
+              </div>
+              <div class="timer__result"></div>
+            </div>
+          </div>
+
+          <div class="banner__price flex">
+            <span class="banner__price-old">R 250.00</span>
+            <span class="banner__price-new">R 160.00</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="goods">
+        <div class="goods__container container">
+          <div class="goods__top top flex">
+            <span class="top__rating">Excellent 4.8/5</span>
+            <img class="top__img" src="/img/goods-brand.png" alt="good's brand">
+            <span class="top__category"><u>best selling</u></span>
+          </div>
+
+          <h2 class="goods__heading">ORTHOPEDIC SLIPPERS</h2>
+
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/img/Goods-big-black.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Goods-big-orange.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Goods-big-pink.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Goods-big-yellow.jpg" />
+              </div>
+            </div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/img/goods-small-black.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/goods-small-orange.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/goods-small-pink.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/goods-small-yellow.jpg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="goods__delivery flex">
+            <span class="goods__delivery-space"><strong>Fast Delivery:</strong></span>2-4 days from SA 
+          </div>
+
+          <div class="goods__stock flex">
+            <span class="goods__stock-space"><strong>In Stock:</strong></span>Shipping from Johannesburg 
+          </div>
+
+          <div class="goods__stars flex">
+            <img class="goods__stars-img" src="/img/goods-stars.png" alt="stars">
+            <img class="goods__stars-img" src="/img/goods-stars.png" alt="stars">
+            <img class="goods__stars-img" src="/img/goods-stars.png" alt="stars">
+            <img class="goods__stars-img" src="/img/goods-stars.png" alt="stars">
+            <img class="goods__stars-img" src="/img/goods-stars.png" alt="stars">
+
+            <span class="goods__stars-quantity">(10)</span>
+          </div>
+
+          <div class="goods__select-container select flex">
+            <div class="select__wrapper">
+              <div class="select__selects">
+                <div class="select__trigger"><span>BLACK</span>
+                    <div class="select__arrow"></div>
+                </div>
+                <div class="select__custom-options">
+                    <span class="select__custom-option selected" data-value="BLACK">BLACK</span>
+                    <span class="select__custom-option" data-value="ORANGE">ORANGE</span>
+                    <span class="select__custom-option" data-value="PINK">PINK</span>
+                    <span class="select__custom-option" data-value="YELLOW">YELLOW</span>
+                </div>
+              </div>
+            </div>
+          
+            <div class="select__wrapper">
+              <div class="select__selects">
+                <div class="select__trigger"><span>2</span>
+                    <div class="select__arrow"></div>
+                </div>
+                <div class="select__custom-options">
+                    <span class="select__custom-option selected" data-value="2">2</span>
+                    <span class="select__custom-option" data-value="3">3</span>
+                    <span class="select__custom-option" data-value="4">4</span>
+                    <span class="select__custom-option" data-value="5">5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="goods__link" href="https://www.youtube.com/">
+            <button class="goods__button">BUY NOW</button>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="libs/index.js"></script>
+  </body>
+</html>
