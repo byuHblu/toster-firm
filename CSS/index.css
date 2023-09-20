@@ -72,7 +72,7 @@ body {
 .header__heading::after {
   content: "";
   display: block;
-  background: url("/img/header-flag.png");
+  background: url("./img/header-flag.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -116,7 +116,7 @@ body {
 
 .banner__container {
   min-height: 281px;
-  background-image: url("/img/banner-background.jpg");
+  background-image: url("./img/banner-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -170,7 +170,7 @@ body {
   top: 9px;
   width: 100%;
   min-height: 4px;
-  background-image: url("/img/banner-line-oldPrice.png");
+  background-image: url("./img/banner-line-oldPrice.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -334,7 +334,7 @@ body {
 .goods__stock::after {
   content: "";
   display: block;
-  background: url("/img/header-flag.png");
+  background: url("./img/header-flag.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
