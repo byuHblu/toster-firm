@@ -74,17 +74,6 @@ var swiper2 = new Swiper(".mySwiper2", {
 
 // DROP_DOWN LISTS
 
-//function show(value) {
-//document.querySelector(".text-box").value = value;
-//}
-
-//let dropdown = document.querySelector(".dropdown");
-//dropdown.onclick = function () {
-//  dropdown.classList.toggle("active");
-//};
-
-//------------------
-
 for (const dropdown of document.querySelectorAll(".select__wrapper")) {
   dropdown.addEventListener("click", function () {
     this.querySelector(".select__selects").classList.toggle("open");
